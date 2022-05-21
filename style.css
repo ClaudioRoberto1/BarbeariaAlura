@@ -1,0 +1,116 @@
+body {
+	background-color: black;
+}
+
+header {
+	background: orange;
+	padding: 18px 0;
+}
+
+
+.caixa header:hover {
+margin-left: 30px;
+}
+
+.caixa{
+	position:relative;
+	width: 920px;
+	margin: 0 auto;
+}
+
+
+nav{
+ position:absolute;
+ top: 110px;
+ right: 0;
+}
+
+
+nav li {
+ display: inline;
+ margin: 0 0 0 20px;
+}
+
+
+nav a {
+	margin-right: 20px;
+	text-transform: uppercase ;
+	color: black;
+	font-weight:bold;
+	font-size:20px;
+	text-decoration:none;
+}
+
+
+nav a:hover {
+color: rgb(98, 0, 255);
+text-decoration: underline;
+}
+
+#banner {
+	
+	width: 100%;
+
+
+}
+
+.principal {
+	background: black;
+	text-align: center;
+}
+
+.Titulo-Principal{
+	text-align:center; 	
+font-size: 35px;
+	margin:auto;
+	color: black;
+}
+
+.titulo-centralizado{
+	background: black;
+	font-size: 35px;
+	text-align:center; 
+	color:rgb(255, 166, 0);
+	}
+
+
+#missao {
+font-size: 30px; 
+}
+	
+
+em{	color:orange;  
+}
+
+strong{
+	color:orange;  
+}
+
+p{
+	color:green; 
+}
+
+.itens {
+	font-style: italic; 
+
+}
+
+.beneficios {
+	background: black;  
+	padding:4%;
+	color:red; 
+	margin: auto;
+	}
+
+ul {
+	display:inline-block; 
+	vertical-align: 150px;  
+		margin-left: 280px;
+		margin-right: 20px;
+}
+.imagembeneficios {
+	margin: center;
+	text-align: center;
+	width:40%;  
+	border: 1px solid orange;
+}
