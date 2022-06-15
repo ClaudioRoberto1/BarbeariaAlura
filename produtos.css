@@ -73,7 +73,7 @@ border-radius: 10px;
 }
 
 .produtos li:active {
-	border-color: red ;
+	border-color: aqua ;
 }
  
  .produtos li:hover h2 {

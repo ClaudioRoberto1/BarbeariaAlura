@@ -49,14 +49,13 @@ text-decoration: underline;
 
 main {
 	width: 920px;
-	background: orange;
+	
 	margin:  0 auto; 
 }
 
 form{
-	
-	
-	margin: 0 40px;
+		
+	margin:  20px;
 }
 
 form label, legend {
@@ -65,50 +64,76 @@ form label, legend {
 	margin-left:  160px;
 	margin: 10px;
 }
+
 .input-padrao {
-	
-	text-align: center;
+
 	background: rgb(247, 215, 176);
 	padding: 10px;	
 	width: 50%;
-
-}
+     }
 
 #texto {
-	
+	margin-top: 20px;
 	text-align: center;
-	color:black;	
+	color:orange;	
 }
 
 #contatos {
-	
-	
+	background: rgb(247, 215, 176);
 	color:black;	
 }
 
+.como-prefere{
+	text-align: center;
+	color: orange;
+}
 
-#checkbox {
+legend {
+	
+	color: orange;
+}
 
-	margin: 20px;
-	color:black;
+.check {
+	
+	text-align: center;
+color: orange;
 }
  
 .tabela {
-	background: rgb(247, 215, 176);
-font-size: 18px;
-border: 1px solid ;
-margin: 20px 0 ;
-margin-left: 45%;
-padding: 10px;
 
-}
+font-size: 20px;
+
+border: 1px solid orange ;
+
+margin: 10px 0 10px 39%;
+
+  }
+
+  #periodo {
+	  background-color:rgb(247, 215, 176); 
+  }
 
 th, td {
-	border: 1.5px solid black;
+	padding: 10px;
+	background: rgb(247, 215, 176);
+	border: 1.5px solid aqua;
 	font-size: bold;
 }
+
 .enviar {
-	background: rgb(247, 215, 176) ;
+	margin: 30px 0 30px 0 ;
+	background: rgb(247, 215, 176) 
+}
+
+.enviar:hover{
+	background: rgb(166, 189, 120) ;
+	opacity: 0,2;
+	
+}
+
+.funcionamento{
+	text-align: center;
+	color:aqua;
 }
 
 footer {

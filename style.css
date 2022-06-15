@@ -1,36 +1,28 @@
 body {
-	background-color: black;
-}
+	background: black;
+	}
 
-header {
+	header {
 	background: orange;
-	padding: 18px 0;
-}
+	padding: 18px 0; }
 
 
 .caixa header:hover {
-margin-left: 30px;
-}
+margin-left: 30px; }
 
 .caixa{
 	position:relative;
 	width: 920px;
-	margin: 0 auto;
-}
-
+	margin: 0 auto; }
 
 nav{
  position:absolute;
  top: 110px;
- right: 0;
-}
-
+ right: 0; }
 
 nav li {
  display: inline;
- margin: 0 0 0 20px;
-}
-
+ margin: 0 0 0 20px; }
 
 nav a {
 	margin-right: 20px;
@@ -38,79 +30,171 @@ nav a {
 	color: black;
 	font-weight:bold;
 	font-size:20px;
-	text-decoration:none;
-}
+	text-decoration:none; }
 
 
 nav a:hover {
 color: rgb(98, 0, 255);
-text-decoration: underline;
-}
+text-decoration: underline; }
 
 #banner {
+	box-shadow: inset 0 0 30px red;
 	
-	width: 100%;
+	width: 100%;}
 
-
-}
-
-.principal {
-	background: black;
-	text-align: center;
-}
-
-.Titulo-Principal{
+	.Titulo-inicial{
+	font-size: 35px;
 	text-align:center; 	
-font-size: 35px;
-	margin:auto;
+    font-size: 2em;
+	margin: 0 0 1em;
 	color: black;
+	clear:left; 
 }
 
-.titulo-centralizado{
+.Titulo-inicial:hover{
+	font-size: 45px;
+	color:blue;
+}
+
+
+
+	.principal p {
+		margin: 0 0 1em;
+	}
+
+.principal strong {
+		font-weight: bold;
+	}
+
+	.principal em {
+		font-style: italic;
+	}
+
+	.titulo-centralizado{
+
 	background: black;
 	font-size: 35px;
-	text-align:center; 
-	color:rgb(255, 166, 0);
-	}
+	text-align: center; 
+	margin: 20px;
+	color:rgb(255, 166, 0);	}
+
+
+.utensilíos {
+
+	width: 120px;
+	float: left;
+	margin: 0 20px 10px 5% ;
+}
+
+.utensilíos:hover {
+
+	width: 150px;}
+
+.titulo-h {
+	color: green;
+font-size: 35px ;
+	margin: 0 0 1em;
+	text-align: center;	
+}
+
+.mapa {
+	
+	margin: 0 auto;
+
+	padding: 3em 0;
+text-align: center;
+}
+
+.mapa p {
+	color: orange;
+	font-size: 35px;
+	margin: 0 0 2em;
+	text-align: center;
+}
 
 
 #missao {
-font-size: 30px; 
-}
+	margin-left: 5% ;
+font-size: 30px; }
 	
-
-em{	color:orange;  
-}
+em{	color:orange;  }
 
 strong{
-	color:orange;  
-}
+	color:orange;  }
 
-p{
-	color:green; 
-}
+p {
+	color:green;}
 
 .itens {
-	font-style: italic; 
 
-}
-
-.beneficios {
-	background: black;  
-	padding:4%;
-	color:red; 
-	margin: auto;
+	color: orange;
+	font-style: italic;
+	line-height: 1.5;
+	 }
+	
+	 .itens:firs-child 	{
+		font-weight: bold;
 	}
 
+	.itens:before {
+content: "٭	"}
+
+.itens:hover {
+
+	color: green;
+	
+	 }
+
+.beneficios {
+	
+	padding:4%;
+	color: orange; 
+		}
+
+	.beneficios:hover {
+
+	color: green;
+	
+	 }	
+
 ul {
+	
 	display:inline-block; 
-	vertical-align: 150px;  
-		margin-left: 280px;
-		margin-right: 20px;
-}
+	vertical-align: 160px;  
+		margin: 0 80px 0 50px;
+	}
+
 .imagembeneficios {
-	margin: center;
+	opacity: 0.3;
+	transition: 500ms;
+	margin: 0 50px 0 120px;
+	border-radius: 8px;
 	text-align: center;
-	width:40%;  
-	border: 1px solid orange;
+
+	}
+
+	.imagembeneficios:hover {
+	opacity: 1;
+	}
+
+
+	.imagembeneficios {
+		box-shadow: 10px 10px orange;
+				 border-radius: 8px;}
+
+	iframe {
+box-shadow: 10px 10px orange;
+		 border-radius: 8px;}
+
+	footer {
+	text-align: center;
+	background: url(bg.jpg);
+	padding: 30px 0;
 }
+
+.copyright {
+	color:  #FFFFFF;
+	font-size: 13px;
+	margin:  20px 0 0;
+}
+
